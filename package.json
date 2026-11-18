@@ -1,0 +1,17 @@
+{
+  "name": "devtools-upload-review",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/review-submission.ts",
+    "test": "node src/review-submission.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
